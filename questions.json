@@ -2,6 +2,6 @@
 	"version":"1",
 	"questions": 
 	[
-		{"prompt":"This is the first question.  It is just an example.","fake":["yespls","noway","whatnow","how?"]}
+		{"prompt":"This is the first question.  It is just an example.","answers":["yespls","noway","whatnow","how?"]}
 	]
 }
