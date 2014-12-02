@@ -1,7 +1,71 @@
 {
-	"version":4,
+	"version": 5,
 	"questions": 
 	[
-		{"prompt":"This is the first question.  It is just an example.","answers":["yespls","noway","whatnow","how?"]}
+		{
+			"prompt": "Which of the following is NOT a Java keyword?",
+			"answers": 
+			[
+				"delete",
+				"public",
+				"synchronized",
+				"int"
+			]
+		},
+
+		{
+			"prompt": "Which of the following is NOT a primitive type?",
+			"answers": 
+			[
+				"String",
+				"double",
+				"char",
+				"short"
+			]
+		},
+
+		{
+			"prompt": "What is the maximum number of classes that a Java application can have",
+			"answers": 
+			[
+				"There is no limit",
+				"1",
+				"42",
+				"1,000,000"
+			]
+		},
+
+		{
+			"prompt": "True/False: Java is derived from the C language",
+			"answers": 
+			[
+				"TRUE",
+				"FALSE",
+				"DONTPICKTHISONE",
+				"DONTPICKTHISONE"
+			]
+		},
+
+		{
+			"prompt": "Java is owned and maintained by what company?",
+			"answers": 
+			[
+				"Oracle",
+				"Sun Microsystems",
+				"Google",
+				"Microsoft"
+			]
+		},
+
+		{
+			"prompt": "Which of the following is true?",
+			"answers": 
+			[
+				"Java, along with C++, is derived from the C language",
+				"Bacon is a health food",
+				"Java, along with HTML, is derived from the C language",
+				"Java, along with Smalltalk, is derived from FORTRAN"
+			]
+		}
 	]
 }
