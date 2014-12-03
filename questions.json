@@ -1,10 +1,10 @@
 {
-	"version": 5,
-	"questions": 
+	"version":6,
+	"questions":
 	[
 		{
-			"prompt": "Which of the following is NOT a Java keyword?",
-			"answers": 
+			"prompt":"Which of the following is NOT a Java keyword?",
+			"answers":
 			[
 				"delete",
 				"public",
@@ -14,8 +14,8 @@
 		},
 
 		{
-			"prompt": "Which of the following is NOT a primitive type?",
-			"answers": 
+			"prompt":"Which of the following is NOT a primitive type?",
+			"answers":
 			[
 				"String",
 				"double",
@@ -25,8 +25,8 @@
 		},
 
 		{
-			"prompt": "What is the maximum number of classes that a Java application can have",
-			"answers": 
+			"prompt":"What is the maximum number of classes that a Java application can have",
+			"answers":
 			[
 				"There is no limit",
 				"1",
@@ -36,8 +36,8 @@
 		},
 
 		{
-			"prompt": "True/False: Java is derived from the C language",
-			"answers": 
+			"prompt":"True/False: Java is derived from the C language",
+			"answers":
 			[
 				"TRUE",
 				"FALSE",
@@ -47,8 +47,8 @@
 		},
 
 		{
-			"prompt": "Java is owned and maintained by what company?",
-			"answers": 
+			"prompt":"Java is owned and maintained by what company?",
+			"answers":
 			[
 				"Oracle",
 				"Sun Microsystems",
@@ -58,13 +58,387 @@
 		},
 
 		{
-			"prompt": "Which of the following is true?",
-			"answers": 
+			"prompt":"Which of the following is true?",
+			"answers":
 			[
 				"Java, along with C++, is derived from the C language",
 				"Bacon is a health food",
 				"Java, along with HTML, is derived from the C language",
 				"Java, along with Smalltalk, is derived from FORTRAN"
+			]
+		},
+
+		{
+			"prompt":"Java source code compiles to _________",
+			"answers":
+			[
+				"byte code",
+				"binary code",
+				"morse code",
+				"machine code"
+			]
+		},
+
+		{
+			"prompt":"What is the maximum size for an integer",
+			"answers":
+			[
+				"2,147,483,647",
+				"1,834,734,743",
+				"9,999,999,999",
+				"42"
+			]
+		},
+
+		{
+			"prompt":"'value += anotherValue' will",
+			"answers":
+			[
+				"Assign value to value plus anotherValue",
+				"Assign value to value plus value",
+				"Assign value to value plus one",
+				"Divide by zero"
+			]
+		},
+
+		{
+			"prompt":"Which of the following is the modulus operator",
+			"answers":
+			[
+				"%",
+				"&",
+				"@",
+				":)"
+			]
+		},
+
+		{
+			"prompt":"The syntax for a while loop is",
+			"answers":
+			[
+				"while(condition){}",
+				"while(condition)",
+				"do{}while(condition)",
+				"while(!condition){}"
+			]
+		},
+
+		{
+			"prompt":"Java is an interpreted language, in that",
+			"answers":
+			[
+				"The source code compiles to byte code, and is then interpreted to machine code by the Java Virtual Machine",
+				"The source code compiles to machine code, and runs on the machine",
+				"The source code compiles to morse code, and runs on the telegraph",
+				"The source code compiles to web code, and runs on Internet Explorer"
+			]
+		},
+
+		{
+			"prompt":"Which of the following is NOT a java keyword?",
+			"answers":
+			[
+				"compile",
+				"native",
+				"protected",
+				"byte"
+			]
+		},
+
+		{
+			"prompt":"Which class would you use to read input from the user?",
+			"answers":
+			[
+				"java.util.Scanner",
+				"java.lang.Object",
+				"java.lang.String",
+				"java.util.Random"
+			]
+		},
+
+		{
+			"prompt":"Which class is used for math operations",
+			"answers":
+			[
+				"java.lang.Math",
+				"java.util.Complicated",
+				"java.util.Math",
+				"javax.util.Math"
+			]
+		},
+
+		{
+			"prompt":"In Java, which package is imported by default",
+			"answers":
+			[
+				"java.lang",
+				"java.util",
+				"javax.util",
+				"java.lang.reflect"
+			]
+		},
+
+		{
+			"prompt":"If your web domain is google.com, your package prefix would be",
+			"answers":
+			[
+				"com.google",
+				"google.com",
+				"net.java",
+				"java.lang"
+			]
+		},
+
+		{
+			"prompt":"This application uses which java-capable build system",
+			"answers":
+			[
+				"Gradle",
+				"Apache Ant",
+				"Apache Maven",
+				"Java Runtime Environment"
+			]
+		},
+
+		{
+			"prompt":"JDK is an abbreviation for what",
+			"answers":
+			[
+				"Java Development Kit",
+				"Java Detriment Kit",
+				"Java Development Kabob",
+				"I didn't think this'd be on the test"
+			]
+		},
+
+		{
+			"prompt":"Java runs on which of the following operating systems",
+			"answers":
+			[
+				"All of these",
+				"Linux",
+				"Windows",
+				"Mac OS X"
+			]
+		},
+
+		{
+			"prompt":"Java does not run on which of these operating systems",
+			"answers":
+			[
+				"Windows Phone",
+				"Windows",
+				"Solaris",
+				"Android"
+			]
+		},
+
+		{
+			"prompt":"The system of procedurally generated HTML documentation in Java is called",
+			"answers":
+			[
+				"Javadoc",
+				"Groovydoc",
+				"Slippydoc",
+				"Shallots"
+			]
+		},
+
+		{
+			"prompt":"Java was NOT influenced by ",
+			"answers":
+			[
+				"Joe Biden",
+				"C",
+				"Smalltalk",
+				"Pascal"
+			]
+		},
+
+		{
+			"prompt":"The most common extension used for Java source files is",
+			"answers":
+			[
+				".java",
+				".h",
+				".class",
+				".republican"
+			]
+		},
+
+		{
+			"prompt":"The extension used for Java class files is",
+			"answers":
+			[
+				".class",
+				".school",
+				".c",
+				".student"
+			]
+		},
+
+		{
+			"prompt":"The extension used for Java archive files is",
+			"answers":
+			[
+				".jar",
+				".java",
+				".class",
+				".j"
+			]
+		},
+
+		{
+			"prompt":"In Java, a JAR refers to a ",
+			"answers":
+			[
+				"Java Archive",
+				"Cookie Jar",
+				"Jam Jar",
+				"Class Jar"
+			]
+		},
+
+		{
+			"prompt":"In Java, the logical operator for OR is",
+			"answers":
+			[
+				"||",
+				"%",
+				"&&",
+				"$"
+			]
+		},
+
+		{
+			"prompt":"In Java, the logical operator for AND is",
+			"answers":
+			[
+				"&&",
+				"||",
+				"==",
+				"v"
+			]
+		},
+
+		{
+			"prompt":"Which of the following is NOT a valid class name",
+			"answers":
+			[
+				"2chan",
+				"$Application",
+				"JFrame",
+				"xXxXxThEeDgYpWnMaStErNoScOpExXxXx"
+			]
+		},
+
+		{
+			"prompt":"The launch script for this application was written in Shell and ",
+			"answers":
+			[
+				"Batch",
+				"Javascript",
+				"Griz",
+				"Skype"
+			]
+		},
+
+		{
+			"prompt":"Which of the following languages is NOT derived from Java",
+			"answers":
+			[
+				"Delphi",
+				"Scala",
+				"j4qui",
+				"Javascript"
+			]
+		},
+
+		{
+			"prompt":"In Java, a string is ",
+			"answers":
+			[
+				"a set of characters, held in a particular order, wrapped in quotes",
+				"a set of numbers, held in a particular order, wrapped in quotes",
+				"a set of characters, held in no particular order, wrapped in quotes",
+				"a set of characters, held in a particular order, wrapped in parenthesis"
+			]
+		},
+
+		{
+			"prompt":"In Java, a single process is called a",
+			"answers":
+			[
+				"Thread",
+				"String",
+				"Spool",
+				"Dusenberg"
+			]
+		},
+
+		{
+			"prompt":"In Java, a final class with a set of predefined possible values is an",
+			"answers":
+			[
+				"enum",
+				"class",
+				"interface",
+				"object"
+			]
+		},
+
+		{
+			"prompt":"In Java, if the Object is the product, than the Class is best compared to the",
+			"answers":
+			[
+				"Blueprints",
+				"Factory",
+				"Really cool hat",
+				"Self-destruct button"
+			]
+		},
+
+		{
+			"prompt":"In Java, a subroutine is called a ",
+			"answers":
+			[
+				"Method",
+				"Function",
+				"Thread",
+				"Field"
+			]
+		},
+
+		{
+			"prompt":"In a given class or object, the 'members' are comprised of",
+			"answers":
+			[
+				"The fields and methods",
+				"The interfaces and methods",
+				"The extended class and methods",
+				"The pepper and the salt"
+			]
+		},
+
+		{
+			"prompt":"In Java, a class may directly extend how many classes?",
+			"answers":
+			[
+				"1",
+				"2",
+				"4",
+				"As many as you please"
+			]
+		},
+
+		{
+			"prompt":"In Java, multiple objects are typically stored as a single field using",
+			"answers":
+			[
+				"an array",
+				"a configuration",
+				"a buildscript",
+				"fallout 4"
 			]
 		}
 	]
